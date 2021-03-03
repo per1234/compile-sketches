@@ -16,6 +16,7 @@ readonly SCRIPT_PATH="$(
 
 readonly PYTHON_COMMAND="python${PYTHON_PACKAGE_VERSION}"
 readonly PYTHON_VENV_PATH="${SCRIPT_PATH}/compilesketches/.venv"
+echo "venv path: $PYTHON_VENV_PATH"
 readonly PYTHON_VENV_ACTIVATE_SCRIPT_PATH="${PYTHON_VENV_PATH}/bin/activate"
 
 # Install Python
